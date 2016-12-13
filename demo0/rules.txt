@@ -1,0 +1,152 @@
+rules
+
+
+====================================================
+random_greeting_rules
+
+hi, do you like autumn? ||| yes, it's usually cool and i can see red leaves
+wah, the weather is fine today, right? ||| yes, i like sunny days like this
+hi, are you interested in football? ||| no, actually i prefer baseball
+sakura is so nice, isn't it? ||| of course, that is what i expect every spring
+sushi in osaka is so delicious. have you enjoyed it? ||| not yet, but i'm sure that i will try
+do you like sake? i see that almost people try it when they visit japan ||| uhm, actually i have tried several times, but i don't really like it's taste
+hello, do you like japanese foods? ||| certainly, i'm a big fan of tempura and sasimi
+
+end_random_greeting_rules
+
+====================================================
+first_greeting_rules
+welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+end_first_greeting_rules
+====================================================
+occupation_rules
+teacher
+medicine
+end_occupation_rules
+
+teacher_rules
+how about your work now? ||| i'm a teacher
+oh, you're a teacher? so you may have a good skill in talking with your students. do you like your work? ||| yes, of course
+what is the best thing you like in your job? it's may be interesting talks with your students, or understanding a lot of knowledge in your field ||| uhm, the time with students in my classes is so fun; i really like it
+end_teacher_rules
+
+medicine_rules
+hi, can you tell me about your work? ||| i'm working in a hospital
+you are a medical doctor? ||| yes, i'm a doctor in the department of pediatrics
+oh, really! so you may treat for a lot of children everyday? ||| actually, not so many
+do you feel tired with your work when you have to work with medicine and patients in all days? ||| a little bit, but i love my job, and i feel happy when i can help my patients heathier
+end_medicine_rules
+
+====================================================
+extend_rules
+
+restaurant_name_system_rules
+
+i would recommend *
+i will recommend *
+what do you think about * ?
+you should consider *
+* is a good idea
+* is a nice choice
+* would be a good choice
+* would be a nice choice
+* would be a good idea
+i think * is a good idea
+i think * is a nice choice
+i think * would be a good choice
+i think * would be a nice choice
+i think * would be a good idea
+
+end_restaurant_name_system_rules
+---
+restaurant_name_user_rules
+
+can you tell me about * ?
+could you please tell me about * ?
+why do you recommend * ?
+what are benefits of * ?
+what are good characteristics of * ?
+
+end_restaurant_name_user_rules
+----
+extend_other_system_rules
+it is *
+it would be *
+++ is *
+++ would be *
+i think it is *
+i think ++ is *
+i think it would be *
+i think ++ would be *
+end_extend_other_system_rules
+
+extend_other_user_rules
+can you tell me about the * ?
+could you please tell me about the * ?
+how about the * ?
+i want to know about the *
+i would like to know about the *
+end_extend_other_user_rules
+
+====================================================
+feedback_price_rules
+
+we have some choices: *. which price do you prefer? ||| i choose * 
+we have some choices: *. which price do you like? ||| i prefer *
+we have some choices: *. plese let me know which one you like? ||| i like the price of *
+we have some options: *. which price do you prefer? ||| i prefer *
+we have some options: *. which price do you like? ||| i like the price of *
+we have some options: *. plese let me know which one you like? ||| i will choose *
+we have some different prices: *. which one do you prefer? ||| i prefer *
+we have some different prices: *. which one do you like? ||| i like the price of *
+we have some different prices: *. plese let me know which one you like? ||| i choose
+end_feedback_price_rules
+====================================================
+
+
+great_rules
+great!
+excellent!
+oh, really, it's very nice
+it's interesting
+that's great
+end_great_rules
+
+new_requests_system_rules
+do you have other questions?
+do you have other requests?
+anything else?
+what can i help you more?
+end_new_requests_system_rules
+
+====================================================
+surprising_system_rules
+do you like mountains?
+do you like forest?
+do you like river?
+do you like beach?
+do you like village?
+do you like town?
+do you like center?
+end_surprising_system_rules
+
+no_answer_user_rules
+no, i don't like it
+no,
+it isn't my interest
+it's not my hobby
+no, i don't
+end_no_answer_user_rules
+
+yes_answer_user_rules
+yes, of course
+yes, that's great
+yes, it's so interesting
+of course, i really like it
+certainly,
+certainly, that's great
+certainly, it's so interesting
+certainly, i really like it
+end_yes_answer_user_rules
+====================================================
+

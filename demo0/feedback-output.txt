@@ -1,0 +1,159 @@
+dial id: 1184
+turns number: 9
+
+turn: 0
+SYSTEM: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i'm looking for a moderately priced restaurant in the area and should
+
+turn: 1
+SYSTEM: we have some options: 1463, 2666, 3490, YEN for each person. which price do you like?
+USER: i like the price of 1463 YEN
+
+turn: 2
+SYSTEM: trattoria contadina is a nice restaurant in the moderate price range .
+USER: great!
+
+turn: 3
+SYSTEM: do you have other requests?
+USER: i'm looking for a restaurant in the area of friendship village
+
+turn: 4
+SYSTEM: alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .
+USER: what is the address
+
+turn: 5
+SYSTEM: the address for alamo square seafood grill is 803 fillmore street .
+USER: what is their phone number
+
+turn: 6
+SYSTEM: the phone number for alamo square seafood grill is 4154402828 .
+USER: what is the area
+
+turn: 7
+SYSTEM: alamo square seafood grill is in the area of friendship village and hayes valley .
+USER: thank you goodbye
+
+turn: 8
+SYSTEM: goodbye .
+=================================================================================
+dial id: 2382
+turns number: 6
+
+turn: 0
+SYSTEM: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i'm looking for a moderately priced restaurant in the area inner richmond and i don't care about that allows children
+
+turn: 1
+SYSTEM: we have some different prices: 1203, 2953, 3479, YEN for each person. which one do you prefer?
+USER: i prefer 1203 YEN
+
+turn: 2
+SYSTEM: i would recommend great eastern restaurant . it has a moderate price range and allows kid -s
+USER: great!
+
+turn: 3
+SYSTEM: what can i help you more?
+USER: can i get the name phone number and area near cheap
+
+turn: 4
+SYSTEM: the phone number for great eastern restaurant is 4159862500 . it is near chinatown and in the area of hayes valley or chinatown .
+USER: thank you goodbye
+
+turn: 5
+SYSTEM: goodbye !
+=================================================================================
+dial id: 1825
+turns number: 12
+
+turn: 0
+SYSTEM: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i am looking for a cheap restaurant that is good for lunch
+
+turn: 1
+SYSTEM: we have some different prices: 507, 1415, 1748, YEN for each person. which one do you prefer?
+USER: i prefer 507 YEN
+
+turn: 2
+SYSTEM: ananda fuara is in the cheap price range and it is good for lunch .
+USER: it's interesting
+
+turn: 3
+SYSTEM: anything else?
+USER: does it allow children
+
+turn: 4
+SYSTEM: ananda fuara allows child -s .
+USER: i want one near children are allowed
+
+turn: 5
+SYSTEM: ananda fuara is a good restaurant .
+USER: i'd like a cheap restaurant that doesn't allow children and is good for brunch
+
+turn: 6
+SYSTEM: we have some options: 907, 1097, 1688, 2180, YEN for each person. which price do you prefer?
+USER: i prefer 1688 YEN
+
+turn: 7
+SYSTEM: is there anything else i can help you with ?
+USER: excellent!
+
+turn: 8
+SYSTEM: do you have other requests?
+USER: i need a cheap restaurant that doesn't allow children and is good for brunch
+
+turn: 9
+SYSTEM: red door cafe is in the cheap price range , it is good for brunch , and it does not allow child -s .
+USER: can i have the address and phone number
+
+turn: 10
+SYSTEM: red door cafe 's address is 1608 bush street and its phone number is 4152828283 .
+USER: thank you good bye
+
+turn: 11
+SYSTEM: goodbye .
+=================================================================================
+dial id: 1413
+turns number: 11
+
+turn: 0
+SYSTEM: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i am looking for a moderately priced restaurant that serves basque food and doesn't allow children
+
+turn: 1
+SYSTEM: we have some choices: 1626, 2453, 3089, YEN for each person. plese let me know which one you like?
+USER: i like the price of 2453 YEN
+
+turn: 2
+SYSTEM: i have a restaurant for you . the name is zarzuela , child -s are not allowed , basque food is served and it is moderate -ly priced .
+USER: oh, really, it's very nice
+
+turn: 3
+SYSTEM: do you have other requests?
+USER: um do you have anything else
+
+turn: 4
+SYSTEM: there are 2 basque restaurant -s that are moderate -ly priced and do not allow kid -s .
+
+turn: 5
+SYSTEM: please confirm your area of interest .
+USER: um it doesn't matter
+
+turn: 6
+SYSTEM: there is a nice restaurant named zarzuela .
+USER: and what uh what else the uh
+
+turn: 7
+SYSTEM: what type of food are wanting to eat ?
+USER: basque
+
+turn: 8
+SYSTEM: i have a restaurant for you . it is called piperade in the north beach telegraph hill area , child -s are not allowed and the price range is moderate .
+USER: what's the address
+
+turn: 9
+SYSTEM: the address for the piperade is 1015 battery street
+USER: thank you goodbye
+
+turn: 10
+SYSTEM: goodbye
+=================================================================================

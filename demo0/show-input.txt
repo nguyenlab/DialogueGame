@@ -1,0 +1,30 @@
+dial id: 1184
+turns number: 7
+
+turn: 0
+SYSTEM: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i'm looking for a moderately priced restaurant in the area
+
+turn: 1
+SYSTEM: trattoria contadina is a nice restaurant in the moderate price range .
+USER: i'm looking for a restaurant in the area of friendship village
+
+turn: 2
+SYSTEM: alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .
+USER: what is the address
+
+turn: 3
+SYSTEM: the address for alamo square seafood grill is 803 fillmore street .
+USER: what is their phone number
+
+turn: 4
+SYSTEM: the phone number for alamo square seafood grill is 4154402828 .
+USER: what is the area
+
+turn: 5
+SYSTEM: alamo square seafood grill is in the area of friendship village and hayes valley .
+USER: thank you goodbye
+
+turn: 6
+SYSTEM: goodbye .
+=================================================================================

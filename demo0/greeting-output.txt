@@ -1,0 +1,34 @@
+dial id: 1184
+turns number: 8
+
+turn: 0
+SYSTEM: hello, do you like japanese foods?
+USER: certainly, i'm a big fan of tempura and sasimi
+
+turn: 1
+SYSTEM: ok, now you can ask for restaurant -s by area , price range or food type . how may i help you ?
+USER: i'm looking for a moderately priced restaurant in the area
+
+turn: 2
+SYSTEM: trattoria contadina is a nice restaurant in the moderate price range .
+USER: i'm looking for a restaurant in the area of friendship village
+
+turn: 3
+SYSTEM: alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .
+USER: what is the address
+
+turn: 4
+SYSTEM: the address for alamo square seafood grill is 803 fillmore street .
+USER: what is their phone number
+
+turn: 5
+SYSTEM: the phone number for alamo square seafood grill is 4154402828 .
+USER: what is the area
+
+turn: 6
+SYSTEM: alamo square seafood grill is in the area of friendship village and hayes valley .
+USER: thank you goodbye
+
+turn: 7
+SYSTEM: goodbye .
+=================================================================================

@@ -1,0 +1,88 @@
+dial id: 1184
+turns number: 7
+
+----------------------
+turn: 0
+
+actor: system
+content: hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?
+
+actor: user
+content: i'm looking for a moderately priced restaurant in the area
+key: pricerange
+value: moderate
+----------------------
+turn: 1
+
+actor: system
+content: trattoria contadina is a nice restaurant in the moderate price range .
+key: name
+value: trattoria contadina
+key: price_range
+value: moderate
+
+actor: user
+content: i'm looking for a restaurant in the area of friendship village
+key: area
+value: friendship village
+----------------------
+turn: 2
+
+actor: system
+content: alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .
+key: name
+value: alamo square seafood grill
+key: area
+value: friendship village
+key: price_range
+value: moderate
+
+actor: user
+content: what is the address
+key: addr
+----------------------
+turn: 3
+
+actor: system
+content: the address for alamo square seafood grill is 803 fillmore street .
+key: name
+value: alamo square seafood grill
+key: address
+value: 803 fillmore street
+
+actor: user
+content: what is their phone number
+key: phone
+----------------------
+turn: 4
+
+actor: system
+content: the phone number for alamo square seafood grill is 4154402828 .
+key: name
+value: alamo square seafood grill
+key: phone
+value: 4154402828
+
+actor: user
+content: what is the area
+key: area
+----------------------
+turn: 5
+
+actor: system
+content: alamo square seafood grill is in the area of friendship village and hayes valley .
+key: name
+value: alamo square seafood grill
+key: area
+value: friendship village or hayes valley
+
+actor: user
+content: thank you goodbye
+----------------------
+turn: 6
+
+actor: system
+content: goodbye .
+
+actor: user
+==============================

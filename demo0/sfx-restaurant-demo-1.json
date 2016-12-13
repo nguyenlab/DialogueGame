@@ -1,0 +1,112 @@
+[
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "base": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "dact": "hello()"
+                },
+                "Usr": {
+                    "hyp": "i'm looking for a moderately priced restaurant in the area",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=moderate)"
+                }
+            },
+            {
+                "turn": 1,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "trattoria contadina is a nice restaurant in the moderate price range .",
+                    "base": "trattoria contadina is a nice place it is in the moderate price range .",
+                    "dact": "inform(name='trattoria contadina',price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "i'm looking for a restaurant in the area of friendship village",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(area=friendship village)"
+                }
+            },
+            {
+                "turn": 2,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .",
+                    "base": "alamo square seafood grill is a nice place , it is in the area of friendship village and it is in the moderate price range .",
+                    "dact": "inform(name='alamo square seafood grill',area='friendship village',price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "what is the address",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(addr)"
+                }
+            },
+            {
+                "turn": 3,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the address for alamo square seafood grill is 803 fillmore street .",
+                    "base": "alamo square seafood grill is a nice place their address is 803 fillmore street .",
+                    "dact": "inform(name='alamo square seafood grill',address='803 fillmore street')"
+                },
+                "Usr": {
+                    "hyp": "what is their phone number",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(phone)"
+                }
+            },
+            {
+                "turn": 4,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the phone number for alamo square seafood grill is 4154402828 .",
+                    "base": "alamo square seafood grill is a nice place their phone number is 4154402828 .",
+                    "dact": "inform(name='alamo square seafood grill',phone='4154402828')"
+                },
+                "Usr": {
+                    "hyp": "what is the area",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(area)"
+                }
+            },
+            {
+                "turn": 5,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "alamo square seafood grill is in the area of friendship village and hayes valley .",
+                    "base": "alamo square seafood grill is a nice place , it is in the area of friendship village and it is in the area of hayes valley .",
+                    "dact": "inform(name='alamo square seafood grill',area='friendship village or hayes valley')"
+                },
+                "Usr": {
+                    "hyp": "thank you goodbye",
+                    "ref": "",
+                    "base": "",
+                    "dact": "thankyou()|bye()"
+                }
+            },
+            {
+                "turn": 6,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "goodbye .",
+                    "base": "goodbye",
+                    "dact": "goodbye()"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            }
+        ],
+        "id": "1184"
+    }
+]

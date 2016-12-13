@@ -1,0 +1,442 @@
+[
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "base": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "dact": "hello()"
+                },
+                "Usr": {
+                    "hyp": "i'm looking for a moderately priced restaurant in the area and should",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=moderate)"
+                }
+            },
+            {
+                "turn": 1,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "trattoria contadina is a nice restaurant in the moderate price range .",
+                    "base": "trattoria contadina is a nice place it is in the moderate price range .",
+                    "dact": "inform(name='trattoria contadina',price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "i'm looking for a restaurant in the area of friendship village",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(area=friendship village)"
+                }
+            },
+            {
+                "turn": 2,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "alamo square seafood grill is a nice restaurant in the area of friendship village and it is in the moderate price range .",
+                    "base": "alamo square seafood grill is a nice place , it is in the area of friendship village and it is in the moderate price range .",
+                    "dact": "inform(name='alamo square seafood grill',area='friendship village',price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "what is the address",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(addr)"
+                }
+            },
+            {
+                "turn": 3,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the address for alamo square seafood grill is 803 fillmore street .",
+                    "base": "alamo square seafood grill is a nice place their address is 803 fillmore street .",
+                    "dact": "inform(name='alamo square seafood grill',address='803 fillmore street')"
+                },
+                "Usr": {
+                    "hyp": "what is their phone number",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(phone)"
+                }
+            },
+            {
+                "turn": 4,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the phone number for alamo square seafood grill is 4154402828 .",
+                    "base": "alamo square seafood grill is a nice place their phone number is 4154402828 .",
+                    "dact": "inform(name='alamo square seafood grill',phone='4154402828')"
+                },
+                "Usr": {
+                    "hyp": "what is the area",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(area)"
+                }
+            },
+            {
+                "turn": 5,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "alamo square seafood grill is in the area of friendship village and hayes valley .",
+                    "base": "alamo square seafood grill is a nice place , it is in the area of friendship village and it is in the area of hayes valley .",
+                    "dact": "inform(name='alamo square seafood grill',area='friendship village or hayes valley')"
+                },
+                "Usr": {
+                    "hyp": "thank you goodbye",
+                    "ref": "",
+                    "base": "",
+                    "dact": "thankyou()|bye()"
+                }
+            },
+            {
+                "turn": 6,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "goodbye .",
+                    "base": "goodbye",
+                    "dact": "goodbye()"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            }
+        ],
+        "id": "1184"
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "base": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "dact": "hello()"
+                },
+                "Usr": {
+                    "hyp": "i'm looking for a moderately priced restaurant in the area inner richmond and i don't care about that allows children",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=moderate)|inform(=dontcare)|inform(allowedforkids=true)"
+                }
+            },
+            {
+                "turn": 1,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "i would recommend great eastern restaurant . it has a moderate price range and allows kid -s",
+                    "base": "great eastern restaurant is a nice place , it is in the moderate price range and where child -s are allowed .",
+                    "dact": "inform(name='great eastern restaurant',price_range=moderate,kids_allowed=yes)"
+                },
+                "Usr": {
+                    "hyp": "can i get the name phone number and area near cheap",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(name,phone)|request(area,near)"
+                }
+            },
+            {
+                "turn": 2,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the phone number for great eastern restaurant is 4159862500 . it is near chinatown and in the area of hayes valley or chinatown .",
+                    "base": "great eastern restaurant is a nice place , it is in the area of chinatown , their phone number is 4159862500 , it is in the area of hayes valley and it is near chinatown .",
+                    "dact": "inform(name='great eastern restaurant',near='chinatown',area='hayes valley or chinatown',phone='4159862500')"
+                },
+                "Usr": {
+                    "hyp": "thank you goodbye",
+                    "ref": "",
+                    "base": "",
+                    "dact": "thankyou()|bye()"
+                }
+            },
+            {
+                "turn": 3,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "goodbye !",
+                    "base": "goodbye",
+                    "dact": "goodbye()"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            }
+        ],
+        "id": "2382"
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "base": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "dact": "hello()"
+                },
+                "Usr": {
+                    "hyp": "i am looking for a cheap restaurant that is good for lunch",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=cheap)|ack()|inform(goodformeal=lunch)"
+                }
+            },
+            {
+                "turn": 1,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "ananda fuara is in the cheap price range and it is good for lunch .",
+                    "base": "ananda fuara is a nice place , it is in the cheap price range and it is good for lunch .",
+                    "dact": "inform(name='ananda fuara',price_range=cheap,good_for_meal=lunch)"
+                },
+                "Usr": {
+                    "hyp": "does it allow children",
+                    "ref": "",
+                    "base": "",
+                    "dact": "confirm(allowedforkids=true)|request(allowedforkids)"
+                }
+            },
+            {
+                "turn": 2,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "ananda fuara allows child -s .",
+                    "base": "ananda fuara is a nice place where child -s are allowed .",
+                    "dact": "inform(name='ananda fuara',kids_allowed=yes)"
+                },
+                "Usr": {
+                    "hyp": "i want one near children are allowed",
+                    "ref": "",
+                    "base": "",
+                    "dact": "Unrecognizable"
+                }
+            },
+            {
+                "turn": 3,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "ananda fuara is a good restaurant .",
+                    "base": "ananda fuara is a nice restaurant .",
+                    "dact": "inform(name='ananda fuara',type=restaurant)"
+                },
+                "Usr": {
+                    "hyp": "i'd like a cheap restaurant that doesn't allow children and is good for brunch",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=cheap)|inform(allowedforkids=false)|ack()|inform(goodformeal=brunch)"
+                }
+            },
+            {
+                "turn": 4,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "is there anything else i can help you with ?",
+                    "base": "can i help you with anything else ?",
+                    "dact": "?reqmore()"
+                },
+                "Usr": {
+                    "hyp": "i need a cheap restaurant that doesn't allow children and is good for brunch",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=cheap)|inform(allowedforkids=false)|ack()|inform(goodformeal=brunch)"
+                }
+            },
+            {
+                "turn": 5,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "red door cafe is in the cheap price range , it is good for brunch , and it does not allow child -s .",
+                    "base": "red door cafe is a nice place , it is good for brunch , where no child -s are allowed and it is in the cheap price range .",
+                    "dact": "inform(name='red door cafe',price_range=cheap,good_for_meal=brunch,kids_allowed=no)"
+                },
+                "Usr": {
+                    "hyp": "can i have the address and phone number",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(addr)|request(phone)"
+                }
+            },
+            {
+                "turn": 6,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "red door cafe 's address is 1608 bush street and its phone number is 4152828283 .",
+                    "base": "red door cafe is a nice place , their address is 1608 bush street and their phone number is 4152828283 .",
+                    "dact": "inform(name='red door cafe',address='1608 bush street',phone='4152828283')"
+                },
+                "Usr": {
+                    "hyp": "thank you good bye",
+                    "ref": "",
+                    "base": "",
+                    "dact": "thankyou()|bye()"
+                }
+            },
+            {
+                "turn": 7,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "goodbye .",
+                    "base": "goodbye",
+                    "dact": "goodbye()"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            }
+        ],
+        "id": "1825"
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "base": "hello , welcome to the parlance dialogue system ? you can ask for restaurant -s by area , price range or food type . how may i help you ?",
+                    "dact": "hello()"
+                },
+                "Usr": {
+                    "hyp": "i am looking for a moderately priced restaurant that serves basque food and doesn't allow children",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(pricerange=moderate)|inform(food=basque)|inform(allowedforkids=false)"
+                }
+            },
+            {
+                "turn": 1,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "i have a restaurant for you . the name is zarzuela , child -s are not allowed , basque food is served and it is moderate -ly priced .",
+                    "base": "zarzuela is a nice place , it serves basque food , it is in the moderate price range and where no child -s are allowed .",
+                    "dact": "inform(name=zarzuela,kids_allowed=no,food=basque,price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "um do you have anything else",
+                    "ref": "",
+                    "base": "",
+                    "dact": "reqalts()"
+                }
+            },
+            {
+                "turn": 2,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "there are 2 basque restaurant -s that are moderate -ly priced and do not allow kid -s .",
+                    "base": "there are 2 restaurant -s where no child -s are allowed in the moderate price range and serving basque food .",
+                    "dact": "inform(type=restaurant,count='2',food=basque,kids_allowed=no,price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            },
+            {
+                "turn": 3,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "please confirm your area of interest .",
+                    "base": "where would you like it to be near to",
+                    "dact": "?request(near)"
+                },
+                "Usr": {
+                    "hyp": "um it doesn't matter",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(=dontcare)"
+                }
+            },
+            {
+                "turn": 4,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "there is a nice restaurant named zarzuela .",
+                    "base": "zarzuela is a nice restaurant .",
+                    "dact": "inform(name=zarzuela,type=restaurant)"
+                },
+                "Usr": {
+                    "hyp": "and what uh what else the uh",
+                    "ref": "",
+                    "base": "",
+                    "dact": "reqalts()"
+                }
+            },
+            {
+                "turn": 5,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "what type of food are wanting to eat ?",
+                    "base": "what kind of food would you like ?",
+                    "dact": "?request(food)"
+                },
+                "Usr": {
+                    "hyp": "basque",
+                    "ref": "",
+                    "base": "",
+                    "dact": "inform(food=basque)"
+                }
+            },
+            {
+                "turn": 6,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "i have a restaurant for you . it is called piperade in the north beach telegraph hill area , child -s are not allowed and the price range is moderate .",
+                    "base": "piperade is a nice place , where no child -s are allowed , it is in the moderate price range , it is near north beach telegraph hill and it serves basque food .",
+                    "dact": "inform(name=piperade,food=basque,near='north beach telegraph hill',kids_allowed=no,price_range=moderate)"
+                },
+                "Usr": {
+                    "hyp": "what's the address",
+                    "ref": "",
+                    "base": "",
+                    "dact": "request(addr)"
+                }
+            },
+            {
+                "turn": 7,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "the address for the piperade is 1015 battery street",
+                    "base": "piperade is a nice place their address is 1015 battery street .",
+                    "dact": "inform(name=piperade,address='1015 battery street')"
+                },
+                "Usr": {
+                    "hyp": "thank you goodbye",
+                    "ref": "",
+                    "base": "",
+                    "dact": "thankyou()|bye()"
+                }
+            },
+            {
+                "turn": 8,
+                "Sys": {
+                    "hyp": "",
+                    "ref": "goodbye",
+                    "base": "goodbye",
+                    "dact": "goodbye()"
+                },
+                "Usr": {
+                    "hyp": "",
+                    "ref": "",
+                    "base": "",
+                    "dact": ""
+                }
+            }
+        ],
+        "id": "1413"
+    }
+]
